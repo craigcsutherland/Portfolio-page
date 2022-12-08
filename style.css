@@ -248,6 +248,7 @@ nav {
 .screen__img {
     width: 100%;
     transition: all 400ms ease;
+    height: 450px; 
 }
 
 .project__wrapper {
