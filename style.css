@@ -1,26 +1,35 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 * { 
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 20;
+}
+
+body {
+    background-color: #39433B;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(0, 0, 0);
+    color: rgb(221, 220, 210);
+    font-family: 'Roboto Slab', sans-serif;
     text-align: center;
     line-height: 1.25;
-}
-
-h1 {
-    font-size: 34px;
+    font-size: 30px;
 }
 
 p {
-    line-height: 1.5;
-    font-size: 16px;
+    font-size: 46px;
+    width: 800px;
+    font-family: 'Libre Baskerville', sans-serif;
+    padding-bottom: 40px;
+    color: rgb(221, 220, 210);
+    
 }
 
 li {
@@ -44,16 +53,15 @@ li {
     padding:50px 0;
 }
 
-.text--green {
-    color: rgb(3, 23, 114);
-}
 
 section:nth-child(even) {
-    background-color: rgb(241, 240, 238);
+    background-color: #4d5a50;
 }
 
 .section__title {
     margin-bottom: 20px;
+    color: rgb(221, 220, 210);
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 a {
@@ -68,8 +76,8 @@ i:hover {
 .link__hover-effect:after {
     content: "";
     position: absolute;
-    height: 3px;
-    background-color: black;
+    height: 2px;
+    background-color: rgb(221, 220, 210);
     width: 0;
     bottom: -3px;
     left: 0;
@@ -94,32 +102,31 @@ nav {
 
 .nav__link--list {
     display: flex;
+    font-size: 18px;
 }
 
 .nav__link--anchor {
     margin:0 12px;
-    color: black;
+    color: rgb(221, 220, 210);
     text-decoration: none;
     font-weight: 700;
 }
 
 .nav__link--anchor-primary {
-    background-color: rgb(3, 23, 114);
+    color: rgb(221, 220, 210);
     padding:8px 20px;
     border-radius: 50px;
-    color: white;
     transition: all 200ms ease; 
 }
 
 .nav__link--anchor-primary:hover {
-      background-color: rgb(13, 99, 197);
+    background-color: #212822;
 }
 
 .personal__logo {
-     font-size: 26px;
-     color: rgb(3, 23, 114);
+     font-size: 30px;
+     color: rgb(221, 220, 210);
      margin:0 12px;
-     font-weight: bold;
 }
 
 /*ABOUT ME*/
@@ -146,12 +153,13 @@ nav {
 }
 
 .about-me__picture--mask {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px;
     margin-bottom: 30px;
+    margin-top: 30px;
     animation: animate-profile-picture 800ms 200ms backwards;
 }
 
@@ -169,17 +177,22 @@ nav {
 
 .about-me__picture {
     width: 100%;
+    
 }
 
 .about-me__info--title {
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 
 .about-me__link {
     font-size: 20px;
-    color: black;
+    color: rgb(221, 220, 210);
     text-decoration: none;
     padding:0 16px;
+}
+
+.about-me__links {
+    padding-bottom: 50px;
 }
 
 .about-me__img--container {
@@ -192,6 +205,11 @@ nav {
 
 .about-me__img {
     width: 100%;
+}
+
+.about-me__info--paragraph {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -232,6 +250,7 @@ nav {
 .language__name {
     position: absolute;
     bottom: 0;
+    color: rgb(221, 220, 210);
 }
 
 
@@ -248,7 +267,7 @@ nav {
 .screen__img {
     width: 100%;
     transition: all 400ms ease;
-    height: 450px; 
+    height: 450px;
 }
 
 .project__wrapper {
@@ -302,22 +321,27 @@ nav {
 }
 
 .project__description--title {
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
-    color: white;
+    color: rgb(221, 220, 210);
+    font-family: 'Roboto Slab', sans-serif;
 
 }
 
 .project__description--sub-title {
     text-align: left;
-    color: white;
+    color: rgb(221, 220, 210);
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 30px;
 
 }
 
 .project__description--paragraph {
     text-align: left;
-    color: white;
-    margin: 16px;
+    color: rgb(221, 220, 210);
+    font-family: 'Roboto Slab', sans-serif;
+    padding-top: 10px;
+    font-size: 26px;
 }
 
 .project__description--link {
@@ -327,6 +351,11 @@ nav {
     margin-right: 16px;
     text-decoration: none;
 
+}
+
+#foot {
+    display: flex;
+    justify-content: center;
 }
 
 /* small phones, large phones, tablets*/
