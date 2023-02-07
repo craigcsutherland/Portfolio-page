@@ -1,5 +1,6 @@
 # Portfolio-page
-Portfolio landing page
+
+Portfolio landing page build using HTML & CSS.
 
 ![port](https://user-images.githubusercontent.com/103643310/217378673-b0c779b4-db03-40d0-b079-b0bac012f987.png)
 
