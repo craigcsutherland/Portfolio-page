@@ -332,6 +332,7 @@ nav {
 
 .project__description--paragraph {
   text-align: left;
+  width: fit-content;
   color: rgb(221, 220, 210);
   font-family: "Roboto Slab", sans-serif;
   padding-top: 10px;
@@ -344,18 +345,4 @@ nav {
   font-size: 40px;
   margin-right: 16px;
   text-decoration: none;
-}
-
-/* small phones, large phones, tablets*/
-@media (max-width: 768px) {
-  nav {
-    height: 68px;
-  }
-  h1 {
-    font-size: 28px;
-  }
-  .project__description {
-    left: 30px;
-    padding-right: 30px;
-  }
 }
