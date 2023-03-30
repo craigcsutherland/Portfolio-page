@@ -207,8 +207,9 @@ nav {
 }
 
 .about-me__info--paragraph {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
 /*TECHNOLOGY STACK*/
@@ -357,8 +358,9 @@ nav {
     font-size: 28px;
   }
 
-  .about-me__info--para {
-    font-size: 18px;
+  .about-me__info--paragraph {
+    font-size: 20px;
+    max-width: 600px;
   }
 
   .language {
